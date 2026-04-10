@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LDS Temple Mapping</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/papaparse/papaparse.min.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>LDS Temple Progress</h1>
+
+    <!-- 🔍 Search -->
+    <input type="text" id="searchInput" placeholder="Search by temple name..." />
+
+    <!-- 📂 Filter -->
+    <select id="filterSelect">
+        <option value="All">All</option>
+        <option value="Operating">Operating</option>
+        <option value="Opening Soon">Opening Soon</option>
+        <option value="Renovation">Renovation</option>
+        <option value="Announced">Announced</option>
+    </select>
+
+    <!-- 🎯 Buttons -->
+    <div>
+        <button id="resetMap">Reset View</button>
+        <button id="zoomMarkers">Zoom to Markers</button>
+    </div>
+
+    <!-- 📊 Marker count -->
+    <p id="markerCount">Markers on map: 0</p>
+
+    <!-- 🗺️ Map -->
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
