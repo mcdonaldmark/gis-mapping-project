@@ -17,6 +17,7 @@ The data used in this project comes from a manually created CSV file containing 
 The purpose of this project was to practice integrating multiple technologies (JavaScript, mapping libraries, and data parsing tools) into a cohesive application while also improving my ability to debug, manage state, and create user-friendly interfaces.
 
 [Software Demo Video]: https://www.youtube.com/watch?v=w6q7Qswxxuw
+[Github]: https://github.com/mcdonaldmark/gis-mapping-project
 
 # Development Environment
 
